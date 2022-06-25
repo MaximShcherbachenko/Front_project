@@ -1,0 +1,36 @@
+.palette-container {
+	width: 100vw;
+    background-color: #fff;
+	border-top: 1px solid rgb(158, 158, 158);
+	display: grid;
+	place-items: center;
+	position: absolute;
+	bottom: 0;
+	height: 15vh;
+}
+
+.palette {
+	display: grid;
+	grid-template-columns: repeat(8, 3vh);
+	gap: 5px;
+}
+
+.palette-color {
+	border: 1px solid #000;
+	width: 3vh;
+	height: 3vh;
+}
+
+.palette-accept {
+	background-color: rgb(103, 255, 32);
+	width: 10vh;
+	height: 4vh;
+	display: grid;
+	place-items: center;
+	color: #fff;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.inactive {
+	background-color: rgb(131, 255, 158);
+}

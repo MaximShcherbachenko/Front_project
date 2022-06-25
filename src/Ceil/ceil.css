@@ -1,0 +1,18 @@
+.ceil {
+    width: calc(70vh / 10);
+    height: calc(70vh / 10);
+    background-color: rgb(234, 234, 234);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.selected {
+    opacity: 0.5;
+}
+@media (orientation: portrait) {
+    .ceil {
+        width: calc(70vw / 10);
+        height: calc(70vw / 10);
+    }
+}
